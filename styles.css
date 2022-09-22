@@ -119,8 +119,10 @@ h2 {
     padding: 0 30px;
 }
 
-footer a {
+footer a,
+footer p {
     color: white;
+    word-spacing: 2px;
 }
 
 .nav a {
@@ -181,6 +183,19 @@ footer a {
     font-weight: bold;
 }
 
+.secondary-button {
+    padding: 10px 40px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-text {
+    color: white;
+}
+
 /* OUR TEAM */
 
 .team {
@@ -222,8 +237,60 @@ footer a {
 .team img {
     border-radius: 10px;
     border: 3px solid #1F2937;
+    width: 400px;
+    height: 100%;
 }
 
+/* TESTIMONIALS */
+.testimonial {
+    margin-top: 50px;
+    background-color: #e5e7eb;
+    height: 450px;
+}
+
+.testimonial .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.testimonial .quote-text {
+    text-align: center;
+}
+
+.testimonial p {
+    align-self: flex-end;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* CTA */
+
+.cta {
+    height: 400px;
+    background-color: white;
+}
+
+.cta .container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .cta-box {
+    background-color: #3882F6;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    border-radius: 5px;
+
+}
 
 /* FOOTER */
 

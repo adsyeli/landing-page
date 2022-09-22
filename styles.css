@@ -93,6 +93,7 @@ h2 {
     font-size: 48px;
     font-weight: bold;
     color: white;
+    line-height: 1;
 
 }
 
@@ -152,7 +153,77 @@ footer a {
 /* HEADER */
 .header {
     background-color: #1F2937;
+    height: 400px;
 }
+
+.header img {
+    max-width: 450px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.header .info {
+    margin: 0 auto;
+}
+
+.primary-button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* OUR TEAM */
+
+.team {
+    background-color: white;
+    height: 500px;
+}
+
+.team .h2-primary {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.team .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.team .people {
+    display: flex;
+    gap: 15px;
+}
+
+.team .person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .person-name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1F2937;
+}
+
+.team img {
+    border-radius: 10px;
+    border: 3px solid #1F2937;
+}
+
 
 /* FOOTER */
 
